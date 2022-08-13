@@ -22,7 +22,7 @@ func doSmth(u int, wg *sync.WaitGroup) {
 	fmt.Println("Ended...")
 }
 
-func main() {
+func main2() {
 	//isntanciamos un waitGroup
 	var wg sync.WaitGroup
 
