@@ -20,9 +20,10 @@ func doSmth(u int, wg *sync.WaitGroup) {
 	fmt.Printf("Started at #%d\n", u)
 	time.Sleep(time.Second * 2)
 	fmt.Println("Ended...")
+
 }
 
-func main() {
+func mainwg() {
 	//isntanciamos un waitGroup
 	var wg sync.WaitGroup
 

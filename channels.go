@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func mainchannels() {
 	c := make(chan int, 3)
 
 	c <- 1

@@ -11,7 +11,7 @@ import (
 // c := [goRoutine1][goRoutine2]
 // c:= [goRoutine3][goRoutine2]
 
-func main() {
+func mainsem() {
 	//define canal de 5 espacios
 	c := make(chan int, 5)
 	//define waitGroup
